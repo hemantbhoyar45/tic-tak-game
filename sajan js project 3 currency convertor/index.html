@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <form>
+            <h1>Currency Convertor</h1>
+            <div id="amount">
+                <p>Enter Amount</p>
+                <input value="100" type="text">
+            </div>
+            <div class="dropdown">
+                <div id="from">
+                    <p>From</p>
+                    <div class="selectcontainer">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="">
+                        <select name="from">
+                            
+                        </select>
+                    </div>
+                </div>
+                <i class="ri-arrow-left-right-fill"></i>
+                <div id="to">
+                    <p>To</p>
+                    <div class="selectcontainer">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="">
+                        <select name="to">
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="msg">1USD = 80INR</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    <script src="code.js"></script>
+</body>
+</html>
